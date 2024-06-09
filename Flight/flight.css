@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body{
+    background-image: url(Images/the\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    background: #D0D5DD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+    border: 1rem;
+    border-radius: 2rem;
+    height: 1.5rem;
+}
+nav .logo{
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    color: blueviolet;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-weight: 700;
+  font-size: x-large;
+  align-items: center;
+}
+nav .logo .text a{
+    text-decoration: none;
+
+}
+.links{
+    align-items: center;
+               display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        }
+.links a{
+    align-items: center;
+      display: flex;
+     flex-direction: row;
+    gap: 5rem;
+    text-decoration: none;    
+    }
+    nav .buttons{
+            gap: 5rem;
+        border: 1rem;
+        border-radius: 6rem;
+        padding: .5rem;
+    }
+    nav .buttons #white{
+        border: 5rem;
+        border-radius: 10rem;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    nav .buttons #black{
+        border: 5rem;
+        border-radius: 10rem;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    .backdrop{
+        margin: 3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 15rem;
+       
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+       gap: .5rem;
+        }
+        .forms input[type=text]{
+            width: 20rem;
+            padding: .5rem;
+            display: inline-block;
+            border: none;
+            border-radius: 10rem;
+            outline: none;
+        }
+        input[type="datetime-local"]{
+            width: 20rem;
+            padding: .5rem;
+            display: inline-block;
+            border: none;
+            border-radius: 10rem
+            /* outline: none; */
+        }
+        .forms #button2{
+            width: 20rem;
+            padding: .5rem;
+            display: inline-block;
+            border: none;
+            color: white;
+            background-color: black;
+            border-radius: 10rem            
+        }
+        
+  

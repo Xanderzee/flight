@@ -1,0 +1,11 @@
+body{
+    background-image: url(the\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
